@@ -10,6 +10,12 @@ namespace CadenaDuplicada
     {
         static void Main(string[] args)
         {
+
+            string Cadena;
+            Console.WriteLine("Escribre una palabra");
+            Cadena = Console.ReadLine();
+            Console.Write(Metodos.DuplicateEncode(Cadena));
+            Console.ReadKey();
         }
     }
 }
